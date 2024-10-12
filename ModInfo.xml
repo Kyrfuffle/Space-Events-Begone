@@ -1,0 +1,16 @@
+<mod displayName="Space Events Begone"
+unique="SpaceEventsBegone"
+description="A small mod that disables events (such as pirate raids and ecodisasters) in the Space Stage."
+installerSystemVersion="1.0.1.2"
+hasCustomInstaller="true"
+isExperimental="false"
+dllsBuild="2.5.367.0">
+
+<component unique="Space Events Begone"
+displayName="Space Events Begone"
+description="This is the entire mod."
+game="GalacticAdventures"
+defaultChecked="true">!!!!!!!!!!SpaceEventsBegone.package</component>
+
+<prerequisite game="GalacticAdventures">!!!!!!!!!!SpaceEventsBegone.package</prerequisite>
+</mod>
