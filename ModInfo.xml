@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mod description="A small mod that disables events (such as pirate raids and ecodisasters) in the Space Stage." displayName="Space Events Begone" dllsBuild="$SPOREMOD_DLLS_BUILD" githubUrl="https://github.com/Kyrfuffle/Space-Events-Begone" hasCustomInstaller="false" installerSystemVersion="1.0.1.2" isExperimental="$SPOREMOD_EXPERIMENTAL" unique="SpaceEventsBegone" websiteUrl="https://github.com/Kyrfuffle/Space-Events-Begone">
+  <prerequisite game="GalacticAdventures">!!!!!!!!!!SpaceEventsBegone.package</prerequisite>
+</mod>
