@@ -1,28 +1,16 @@
-<mod displayName="Drama Events Begone"
-unique="disabledramaevents"
-description="A mod that disables drama events (such as meteor showers in Creature Stage and bio disasters in Space Stage). Toggle which stages you want drama events disabled in."
+<mod displayName="Space Events Begone"
+unique="Space Events Begone"
+description="A mod that disables events, such as bio disasters and pirate raids, in the Space Stage."
 installerSystemVersion="1.0.1.2"
 hasCustomInstaller="true"
 isExperimental="false"
 dllsBuild="2.5.290">
 
-<component unique="Disable Space Events"
-displayName="Disable Space Events"
-description="This disables the randomly occuring bio disasters and pirate raids in Space Stage."
+<component unique="SpaceEventsBegone"
+displayName="Space Events Begone"
+description="This is the entire mod."
 game="GalacticAdventures"
-defaultChecked="false">!!!!!!!!!!DisableSpace.package</component>
-
-<component unique="Disable Tribal Events"
-displayName="Disable Tribal Events"
-description="This disables the scheduled UFO event in Tribal Stage."
-game="GalacticAdventures"
-defaultChecked="false">!!!!!!!!!!DisableTribal.package</component>
-
-<component unique="Disable Creature Events"
-displayName="Disable Creature Events"
-description="This disables the scheduled meteor shower and UFO events in Creature Stage."
-game="GalacticAdventures"
-defaultChecked="false">!!!!!!!!!!DisableCreature.package</component>
+defaultChecked="true">!!!!!!!!!!SpaceEventsBegone.package</component>
 
 <prerequisite game="GalacticAdventures">!!!!!!!!!!SpaceEventsBegone.package</prerequisite>
 </mod>
