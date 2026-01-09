@@ -1,4 +1,4 @@
-# Space-Events-Begone
+# Space Events Begone
 **About**:
 - A small mod that disables events (such as pirate raids and ecodisasters) in the Space Stage.
 
